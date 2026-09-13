@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="bs" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flying Dress Bosnia and Herzegovina — koncept</title>
+<link rel="icon" href="images/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- reusable SVG ikone (FB/IG/TikTok) -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-fb" viewBox="0 0 24 24"><path fill="currentColor" d="M15 8.5h2.5V5.2c-.43-.06-1.9-.2-3.6-.2-3.56 0-6 2.24-6 6.35V15H4.5v3.7H8V29h3.9V18.7h3.36l.53-3.7H11.9v-3.2c0-1.07.29-1.8 1.83-1.8Z"/></symbol>
+  <symbol id="icon-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="icon-tt" viewBox="0 0 24 24"><path fill="currentColor" d="M14.5 3c.4 2.1 1.8 3.6 4 3.9v2.6c-1.4.1-2.7-.3-4-1.1v6.4c0 3.2-2.4 5.6-5.5 5.6S3.5 17.9 3.5 14.8c0-3.1 2.5-5.6 5.6-5.5v2.7c-1.6-.2-3 .9-3 2.6 0 1.6 1.3 2.8 2.9 2.8s2.9-1.2 2.9-2.9V3Z"/></symbol>
+</svg>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="topbar-contact">
+      <a href="tel:+38762285266">+387 62 285 266</a>
+      <a href="mailto:info@flyingdress.ba">info@flyingdress.ba</a>
+    </div>
+    <div class="topbar-right">
+      <div class="lang-switch" id="langSwitch">
+        <button data-lang="bs" class="active">BS</button><span class="sep">/</span>
+        <button data-lang="en">EN</button><span class="sep">/</span>
+        <button data-lang="de">DE</button>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=61559678163128" aria-label="Facebook"><svg><use href="#icon-fb"/></svg></a>
+        <a href="https://www.instagram.com/flyingdress.ba/" aria-label="Instagram"><svg><use href="#icon-ig"/></svg></a>
+        <a href="https://www.tiktok.com/@flyingdress.ba" aria-label="TikTok"><svg><use href="#icon-tt"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header id="site-header">
+  <nav class="mainnav">
+    <div class="wrap">
+      <div class="logo-slot">
+        <!-- ⬇️ TVOJ LOGO ⬇️ -->
+        <img src="images/logo.png" alt="Flying Dress" class="logo-img">
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Meni">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#pocetna" data-i18n="nav_home">Početna</a>
+        <a href="#onama" data-i18n="nav_about">O nama</a>
+        <a href="#galerija" data-i18n="nav_gallery">Galerija</a>
+        <a href="#kontakt" data-i18n="nav_contact">Kontakt</a>
+        <a href="#kontakt" class="btn btn-ghost" data-i18n="nav_book">Rezerviši termin</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO — full-bleed slika + magenta gradijent -->
+<section class="hero" id="pocetna">
+  <div class="wrap hero-grid">
+    <div class="hero-content">
+      <span class="kicker" data-i18n="hero_kicker">Bosna i Hercegovina</span>
+      <h1>Flying Dress<br><em>Photoshoots</em></h1>
+      <p class="hero-tagline">A brand with purpose</p>
+      <p data-i18n="hero_text">Portret, pokret i najljepše lokacije u BiH spojeni u jedno fotografsko iskustvo. Bez obzira imate li iskustva pred kamerom ili ne — mi vodimo, vi uživate u trenutku.</p>
+      <div class="hero-cta">
+        <a href="#kontakt" class="btn btn-primary" data-i18n="hero_cta1">Rezerviši fotografisanje</a>
+        <a href="#paketi" class="btn btn-ghost" data-i18n="hero_cta2">Pogledaj pakete</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wave" style="background:var(--magenta-deep)">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path fill="#fdf6f8" d="M0,40 C 240,90 480,0 720,30 C 960,60 1200,10 1440,45 L1440,90 L0,90 Z"></path></svg>
+</div>
+
+<section class="welcome" id="onama">
+  <div class="wrap welcome-grid">
+    <div><h2 data-i18n="welcome_title">Nismo samo fotografisanje. Ovo je iskustvo za sebe.</h2></div>
+    <div class="welcome-text">
+      <p data-i18n="welcome_p1">Flying Dress Bosna i Hercegovina je originalni tim posvećen ovom konceptu u našoj zemlji — spoju haljine u pokretu, prirodnog pejzaža i pažljivo vođenog fotografisanja. Od planinskih vidikovaca do rijeka i starih gradskih jezgri, svaka lokacija bira se da istakne pokret tkanine i vaš izraz.</p>
+      <p style="margin-top:18px;" data-i18n="welcome_p2">Ne treba vam iskustvo pred kamerom. Naš tim vodi svaki korak — od odabira haljine i boje, do pokreta i kadra — tako da rezultat izgleda prirodno i spektakularno.</p>
+      <p class="pull" style="margin-top:30px;" data-i18n="welcome_pull">Svaka fotografija treba nositi jedan trenutak u kojem ste bili glavna zvijezda.</p>
+    </div>
+  </div>
+</section>
+
+<section class="media-strip">
+  <div class="wrap">
+    <p class="media-label" data-i18n="media_label">Media about us</p>
+  </div>
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>Klix</span><span>N1</span><span>BHT</span><span>Novine</span><span>Gracija</span><span>TRN</span><span>Radio Sarajevo</span><span>Ljepota&nbsp;&amp;&nbsp;Zdravlje</span>
+      <span>Klix</span><span>N1</span><span>BHT</span><span>Novine</span><span>Gracija</span><span>TRN</span><span>Radio Sarajevo</span><span>Ljepota&nbsp;&amp;&nbsp;Zdravlje</span>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="galerija">
+  <div class="wrap">
+    <div class="gallery-head">
+      <h2 data-i18n="gallery_title">Svaki kadar priča drugu priču</h2>
+      <a href="#kontakt" data-i18n="gallery_cta">Rezerviši svoj termin</a>
+    </div>
+    <div class="dress-grid">
+      <!-- Red 1 -->
+      <div class="dress-card tall" style="background-image:url('images/bordo.jpg')"><span data-i18n="c_bordo">Bordo</span></div>
+      <div class="dress-card" style="background-image:url('images/zlatna2.jpg')"><span data-i18n="c_zlatna">Zlatna</span></div>
+      <div class="dress-card" style="background-image:url('images/tamnoplava.jpg')"><span data-i18n="c_lavanda">Tamno plava</span></div>
+      <div class="dress-card tall" style="background-image:url('images/ruzicasta.jpg')"><span data-i18n="c_ruza">Roza</span></div>
+
+      <!-- Red 2 -->
+      <div class="dress-card" style="background-image:url('images/zuta.jpg')"><span data-i18n="c_maslina">Žuta</span></div>
+      <div class="dress-card tall" style="background-image:url('images/bijela.jpg')"><span data-i18n="c_bijela">Bijela</span></div>
+      <div class="dress-card" style="background-image:url('images/crna.jpg')"><span data-i18n="c_crna">Crna</span></div>
+      <div class="dress-card" style="background-image:url('images/crvena.jpg')"><span data-i18n="c_coral">Crvena</span></div>
+
+      <!-- Red 3 -->
+      <div class="dress-card tall" style="background-image:url('images/neboplava.jpg')"><span data-i18n="c_tirkizna">Svijetlo plava</span></div>
+      <div class="dress-card tall" style="background-image:url('images/dvije.jpg')"><span data-i18n="c_burgundy"></span></div>
+      <div class="dress-card" style="background-image:url('images/zlatna.jpg')"><span data-i18n="c_nude"></span></div>
+      <div class="dress-card" style="background-image:url('images/cetiri.jpg')"><span data-i18n="c_sampanj"></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="packages" id="paketi">
+  <div class="wrap">
+    <div class="packages-head">
+      <h2 data-i18n="pkg_title">Odaberi svoje iskustvo</h2>
+      <p data-i18n="pkg_desc">Tri načina da doživite Flying Dress fotografisanje — od kratke sesije do potpunog, višelokacijskog doživljaja. Cijene i sadržaj paketa lako prilagođavamo dogovoru s klijentom.</p>
+    </div>
+    <div class="pkg-row">
+      <div class="pkg">
+        <h3 data-i18n="pkg_standard">Standard</h3>
+        <div class="price">200 KM</div>
+        <ul>
+          <li data-i18n="pkg_s1">1 flying dress haljina</li>
+          <li data-i18n="pkg_s2">1 sat fotografisanja</li>
+          <li data-i18n="pkg_s3">1 lokacija</li>
+          <li data-i18n="pkg_s4">10 obrađenih fotografija</li>
+          <li data-i18n="pkg_s5">1 video reel</li>
+        </ul>
+        <a href="#kontakt" class="btn btn-ink" data-i18n="pkg_choose">Odaberi paket</a>
+      </div>
+      <div class="pkg featured">
+        <h3 data-i18n="pkg_premium">Premium</h3>
+        <div class="price">300 KM</div>
+        <ul>
+          <li data-i18n="pkg_p1">2 flying dress haljine</li>
+          <li data-i18n="pkg_p2">2 sata fotografisanja</li>
+          <li data-i18n="pkg_p3">1 lokacija, 2 asistenta</li>
+          <li data-i18n="pkg_p4">20 obrađenih fotografija</li>
+          <li data-i18n="pkg_p5">2 video reela</li>
+        </ul>
+        <a href="#kontakt" class="btn btn-primary" data-i18n="pkg_choose">Odaberi paket</a>
+      </div>
+      <div class="pkg">
+        <h3 data-i18n="pkg_gold">Gold</h3>
+        <div class="price">400 KM</div>
+        <ul>
+          <li data-i18n="pkg_g1">3 ili više haljina</li>
+          <li data-i18n="pkg_g2">Produženo fotografisanje</li>
+          <li data-i18n="pkg_g3">Više lokacija</li>
+          <li data-i18n="pkg_g4">Puna video i foto obrada</li>
+          <li data-i18n="pkg_g5">Dodatni asistenti</li>
+        </ul>
+        <a href="#kontakt" class="btn btn-ink" data-i18n="pkg_choose">Odaberi paket</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="locations" id="lokacije">
+  <div class="wrap">
+    <h2 data-i18n="loc_title">Četiri grada, četiri različita raspoloženja</h2>
+    <div class="loc-row">
+      <div class="loc"><strong>Sarajevo</strong><span data-i18n="loc_sa">Vidikovci i stara čaršija</span></div>
+      <div class="loc"><strong>Mostar</strong><span data-i18n="loc_mo">Neretva i kameni mostovi</span></div>
+      <div class="loc"><strong>Banja Luka</strong><span data-i18n="loc_bl">Vrbas i gradski parkovi</span></div>
+      <div class="loc"><strong>Tuzla</strong><span data-i18n="loc_tz">Panonska jezera</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="recenzije">
+  <div class="wrap">
+    <h2 data-i18n="rev_title">Riječi onih koji su doživjeli let</h2>
+  </div>
+  <div class="rev-marquee">
+    <div class="rev-track">
+      <div class="rev"><p>Poklonio sam djevojci fotografisanje za godišnjicu — nadmašilo je sva očekivanja. Profesionalno, a opet opušteno i zabavno.</p><div class="rev-name">Tajma J.</div></div>
+      <div class="rev"><p>Slikanje u ovim haljinama je posebno iskustvo koje se mora doživjeti. Prezadovoljna sam rezultatom — pravi wow efekat.</p><div class="rev-name">Damir D.</div></div>
+      <div class="rev"><p>Haljine su elegantne i efektne, lokacija i organizacija na vrhunskom nivou. Fotograf zna izvući najbolje iz svakog kadra.</p><div class="rev-name">Zorana S.</div></div>
+      <div class="rev"><p>Profesionalnost, kreativnost i fantastična energija tokom cijelog snimanja. Iskustvo koje pamtim.</p><div class="rev-name">Elvira N.</div></div>
+      <div class="rev"><p>Sve pohvale timu — haljine, lokacija i atmosfera na vrhunskom nivou. Rezultat oduzima dah.</p><div class="rev-name">Ena B.</div></div>
+      <div class="rev"><p>Poklonio sam djevojci fotografisanje za godišnjicu — nadmašilo je sva očekivanja. Profesionalno, a opet opušteno i zabavno.</p><div class="rev-name">Tajma J.</div></div>
+      <div class="rev"><p>Slikanje u ovim haljinama je posebno iskustvo koje se mora doživjeti. Prezadovoljna sam rezultatom — pravi wow efekat.</p><div class="rev-name">Damir D.</div></div>
+      <div class="rev"><p>Haljine su elegantne i efektne, lokacija i organizacija na vrhunskom nivou. Fotograf zna izvući najbolje iz svakog kadra.</p><div class="rev-name">Zorana S.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap faq-grid">
+
+    <!-- LIJEVO: MAPA -->
+    <div class="faq-map">
+      <p class="faq-map-label" data-i18n="faq_map_label">Gdje nas možete pronaći</p>
+      <div class="map-embed">
+        <iframe
+          src="https://maps.google.com/maps?q=Flying%20Dress%20Photoshoots%20-%20Bosnia%20%26%20Herzegovina&t=m&z=13&output=embed&iwloc=near"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Flying Dress Photoshoots — lokacija">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- DESNO: FAQ -->
+    <div class="faq-inner">
+      <h2 data-i18n="faq_title">Prije nego što rezervišete</h2>
+
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq_q1">Kako rezervišem termin?</span><span class="icon">+</span></div>
+        <div class="faq-a"><p data-i18n="faq_a1">Putem dugmeta "Rezerviši termin" na sajtu, telefonom ili WhatsAppom. Birate paket, datum i vrijeme koje vam odgovara.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq_q2">Da li mi treba iskustvo pred kamerom?</span><span class="icon">+</span></div>
+        <div class="faq-a"><p data-i18n="faq_a2">Ne. Naš tim vodi kroz svaki korak — pozu, pokret i položaj haljine — tako da fotografije izgledaju prirodno bez obzira na predznanje.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq_q3">Da li je haljina uključena u cijenu?</span><span class="icon">+</span></div>
+        <div class="faq-a"><p data-i18n="faq_a3">Da. Haljine su dio ponude u svim veličinama i bojama, prilagodljive svakom tijelu — od XS do XXL.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q"><span data-i18n="faq_q4">Koliko traje fotografisanje?</span><span class="icon">+</span></div>
+        <div class="faq-a"><p data-i18n="faq_a4">Uobičajeno 45 minuta do sat vremena, u zavisnosti od paketa i broja lokacija.</p></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="final" id="kontakt">
+  <div class="wrap">
+    <h2 data-i18n="final_title">Spremni da postanete glavna zvijezda svoje fotografije?</h2>
+    <div class="final-row">
+      <a href="tel:+38762285266" class="btn btn-ink" data-i18n="final_cta">Rezerviši fotografisanje</a>
+      <div class="contact">+387 62 285 266<br>info@flyingdress.ba</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <div data-i18n="foot_copy">© 2026 Flying Dress Bosnia and Herzegovina</div>
+    <div class="social">
+      <a href="https://www.facebook.com/profile.php?id=61559678163128" aria-label="Facebook"><svg><use href="#icon-fb"/></svg></a>
+      <a href="https://www.instagram.com/flyingdress.ba/" aria-label="Instagram"><svg><use href="#icon-ig"/></svg></a>
+      <a href="https://www.tiktok.com/@flyingdress.ba" aria-label="TikTok"><svg><use href="#icon-tt"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
